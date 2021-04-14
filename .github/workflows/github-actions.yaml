@@ -3,7 +3,7 @@ name: blacktwittertrends
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '*/6 * * * *'
 
 jobs:
   blacktwittertrends-post:
