@@ -14,7 +14,7 @@ blacktwitterbot_token <- rtweet::create_token(
 newyork <- get_trends("new york")
 atl <- get_trends("atlanta")
 chicago <- get_trends("chicago")
-miami <- get_trends("miami")
+miami <- get_trends("new york")
 
 # Save As CSV
 save_as_csv(newyork, "trends.csv", prepend_ids = TRUE, na = "", fileEncoding = "UTF-8")
