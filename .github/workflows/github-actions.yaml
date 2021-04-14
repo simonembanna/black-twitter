@@ -1,9 +1,7 @@
 
 name: blacktwittertrends
 
-on:
-  schedule:
-    - cron: '*/6 * * * *'
+on: push
 
 jobs:
   blacktwittertrends-post:
